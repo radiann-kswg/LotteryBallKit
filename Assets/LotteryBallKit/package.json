@@ -1,0 +1,22 @@
+{
+  "name": "net.numbertales-radiann.lotteryballkit",
+  "version": "1.0.0",
+  "displayName": "LotteryBallKit",
+  "description": "番号ボール（抽選機・ビンゴ・ガチャ用）の移植キット。0〜99をアトラスUVオフセットで切り替え、本体はキャラクターテクスチャに差し替え可能。URP Lit 前提。\n\nDrop-in numbered lottery balls for Unity. Numbers 0-99 via atlas UV offset; the ball body can be swapped for a character texture. Requires URP.",
+  "unity": "6000.0",
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "ラジアン（柏木主税） / RadianN_kswg",
+    "url": "https://database.numbertales-radiann.net/"
+  },
+  "keywords": [
+    "lottery",
+    "bingo",
+    "gacha",
+    "ball",
+    "urp"
+  ],
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.5.0"
+  }
+}

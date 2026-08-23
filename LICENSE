@@ -1,15 +1,22 @@
-RouletteSphereChaser © 2026 by ラジアン(柏木主税) / RadianN_kswg
+LotteryBallKit © 2026 by ラジアン(柏木主税) / RadianN_kswg
 is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
 To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
 
-NOTE ON SCOPE / 適用範囲について
-  Ball skin textures (character textures placed under Assets/Textures/BallSkins/)
-  are NOT covered by this license. They are kept outside version control and are
-  governed by the license of the source image. See LICENSE-ASSETS.md.
+SCOPE / 適用範囲
+  Everything in this repository is covered by this license, including the
+  Blender source (BlenderSources/), models, textures, the sample ball skin
+  (BallSkins_Sample.png), scripts and the sample scene.
 
-  ボールスキン（Assets/Textures/BallSkins/ に置くキャラクターテクスチャ）は
-  本ライセンスの対象外です。バージョン管理の管轄外に置かれ、権利はテクスチャ
-  画像元のライセンスに従います。詳細は LICENSE-ASSETS.md を参照してください。
+  本リポジトリの収録物はすべて本ライセンスの対象です。Blender 原本
+  （BlenderSources/）・モデル・テクスチャ・サンプルスキン
+  （BallSkins_Sample.png）・スクリプト・サンプルシーンを含みます。
+
+ATTRIBUTION / クレジット表記例
+  LotteryBallKit by RadianN_kswg / ラジアン（柏木主税） — CC BY 4.0
+
+  The number atlas typeface derives from PenchantManufacture image assets
+  (same author, CC BY 4.0):
+  PenchantManufacture image assets by RadianN_kswg / ラジアン（柏木主税） CC BY 4.0
 
 =======================================================================
 

@@ -2,6 +2,11 @@
 
 RouletteSphereChaser の抽選ボールを他のUnityプロジェクトで使うための移植キット。
 
+> 導入方法（フォルダコピー / UPM git URL）とライセンス表記の詳細はリポジトリルートの `README.md`、
+> 改造・再生成の手順は `CONTRIBUTING.md` を参照してください。
+
+要件: **Unity 6（6000.x）** ＋ **URP 17.5.0**。
+
 ## 内容
 
 - `Prefabs/NumberBall.prefab` … そのまま置ける物理ボール（径0.1m・Rigidbody CCD・SphereCollider）
@@ -12,7 +17,9 @@ RouletteSphereChaser の抽選ボールを他のUnityプロジェクトで使う
 - `Scripts/NumberBall.cs` … 番号印字（アトラスUVオフセット）＋キャラテクスチャ差し替え
 - `Materials/BallKit_Body.mat` / `BallKit_Number.mat` … URP Lit マテリアル
 - `Sources/LotteryBall.blend.bytes` … Blender原本（拡張子を `.blend` に戻すと Blender 5.x で開ける）
-- `Sources/gen_number_atlas.py` … アトラス再生成スクリプト（要 PIL と PenchantManufacture フォント）
+- `Sources/gen_number_atlas.py` … アトラス再生成スクリプト（要 Pillow ＋ `--font` でフォント指定）
+- `Scripts/LotteryBallKit.asmdef` … アセンブリ定義（`autoReferenced: true` なので、コピー導入でも通常のゲームコードから参照できる）
+- `package.json` / `CHANGELOG.md` … UPM パッケージとして参照するためのマニフェストと変更履歴
 
 ## 使い方
 
