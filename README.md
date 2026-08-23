@@ -8,6 +8,11 @@
 A drop-in Unity kit for numbered lottery balls (bingo / gacha / raffle machines).
 Numbers 0–99 are switched by an atlas UV offset; the ball body can be swapped for a character texture.
 
+<p align="center">
+  <img src="Docs/images/preview_blender.png" alt="Blenderでのボールモデル（キャラクタースキン適用例）" width="68%">
+  <img src="Docs/images/preview_unity.png" alt="Unityでの表示例" width="28%">
+</p>
+
 > 原典 / Origin: [RouletteSphereChaser](https://github.com/radiann-kswg/RouletteSphereChaser) の抽選ボールを単体アセットとして切り出したもの。
 
 ---
