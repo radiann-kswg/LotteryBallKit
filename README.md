@@ -21,7 +21,7 @@ Numbers 0–99 are switched by an atlas UV offset; the ball body can be swapped 
 
 | | |
 | --- | --- |
-| Unity | **6000.5.9f1**（Unity 6 系。6000.x なら概ね動作） |
+| Unity | **6000.6.0f1**（Unity 6 系。6000.x なら概ね動作） |
 | Render Pipeline | **URP 17.5.0**（`_BaseMap` / `_BaseColor` 前提） |
 | 必須パッケージ | `com.unity.render-pipelines.universal` |
 
