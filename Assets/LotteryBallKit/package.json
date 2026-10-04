@@ -17,6 +17,6 @@
     "urp"
   ],
   "dependencies": {
-    "com.unity.render-pipelines.universal": "17.5.0"
+    "com.unity.render-pipelines.universal": "17.3.0"
   }
 }
