@@ -2,7 +2,7 @@
 # tile(col, row_from_top) -> number (9-row)*10+col ; UV origin bottom-left.
 # => 下段が 0〜9、最上段が 90〜99。NumberBall.cs の UV オフセット計算と対になる規約。
 #
-# usage: python gen_number_atlas.py --font /path/to/PenchantManufacture.otf
+# usage: python gen_number_atlas.py --font /path/to/PenchantManufacture-zero-numeral.otf
 #   フォントは同梱していない（CC BY 4.0 だがバイナリを持ち込まない方針）。詳細は CONTRIBUTING.md §4。
 import argparse
 from pathlib import Path
@@ -13,7 +13,7 @@ FIT_R = 40                 # 数字の外接円半径(px)。バッジ半径(56.3
 OUT = Path(__file__).resolve().parents[1] / "Textures" / "NumberAtlas.png"
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--font", required=True, help="path to PenchantManufacture.otf (or any .otf/.ttf)")
+ap.add_argument("--font", required=True, help="path to PenchantManufacture-zero-numeral.otf (or any .otf/.ttf)")
 ap.add_argument("--out", default=OUT, type=Path)
 args = ap.parse_args()
 

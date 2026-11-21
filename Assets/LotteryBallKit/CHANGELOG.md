@@ -3,6 +3,12 @@
 All notable changes to LotteryBallKit are documented here.
 書式は [Keep a Changelog](https://keepachangelog.com/ja/1.1.0/) に、バージョンは [SemVer](https://semver.org/lang/ja/) に従います。
 
+## [Unreleased]
+
+### Changed
+
+- 球面番号の `0` に PenchantManufacture の numeral 形を採用。斜線が輪郭の内側に離れて見える。
+
 ## [1.0.1] - 2026-09-06
 
 ### Fixed

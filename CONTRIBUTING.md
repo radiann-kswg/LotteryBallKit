@@ -160,19 +160,18 @@ non-CC-BY actually ships — but the dangling references should be purged on the
 
 ### 前提 / Prerequisites
 
-- Python 3 + Pillow（`pip install pillow`）
-- `PenchantManufacture.otf`（同作者・CC BY 4.0）。**リポジトリには同梱していません**。
-  別書体を使う場合は `--font` で差し替えてください
+- Python 3 + RAQM 対応の Pillow。配布画像は Linux 版 Pillow 12.3.0 で生成しています。RAQM の有無で2桁の字間が変わります。
+- [PenchantManufacture-zero-numeral.otf](https://github.com/radiann-kswg/PenchantManufacture_ImageAssets/blob/62779c1fac524209d9018bd92e01490067d4610e/assets/fonts/PenchantManufacture-zero-numeral.otf)（同作者・CC BY 4.0）
 
 ### 実行 / Running
 
 リポジトリのルートから:
 
 ```bash
-python Assets/LotteryBallKit/Sources/gen_number_atlas.py --font /path/to/PenchantManufacture.otf
+python Assets/LotteryBallKit/Sources/gen_number_atlas.py --font /path/to/PenchantManufacture-zero-numeral.otf
 ```
 
-出力は `Assets/LotteryBallKit/Textures/NumberAtlas.png` に上書きされます。
+出力は `Assets/LotteryBallKit/Textures/NumberAtlas.png` に上書きされます。同じ画像を Blender 原本が参照する `BlenderSources/NumberAtlas.png` にもコピーしてください。
 
 ### レイアウト規約 / Layout contract
 
